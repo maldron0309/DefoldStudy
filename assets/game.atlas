@@ -5,4 +5,11 @@ animations {
   }
   playback: PLAYBACK_NONE
 }
+animations {
+  id: "enemy"
+  images {
+    image: "/assets/PNGs/Kla\'ed - Fighter - Base.png"
+  }
+  playback: PLAYBACK_NONE
+}
 extrude_borders: 2
