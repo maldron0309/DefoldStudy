@@ -3,8 +3,84 @@ instances {
   id: "enemy"
   prototype: "/main/enemy.go"
   position {
-    x: 118.0
-    y: 172.0
+    x: 56.0
+    y: 433.0
+  }
+  scale3 {
+    x: 1.5
+    y: 1.5
+  }
+}
+instances {
+  id: "enemy1"
+  prototype: "/main/enemy.go"
+  position {
+    x: 143.0
+    y: 433.0
+  }
+  scale3 {
+    x: 1.5
+    y: 1.5
+  }
+}
+instances {
+  id: "enemy2"
+  prototype: "/main/enemy.go"
+  position {
+    x: 221.0
+    y: 433.0
+  }
+  scale3 {
+    x: 1.5
+    y: 1.5
+  }
+}
+instances {
+  id: "enemy3"
+  prototype: "/main/enemy.go"
+  position {
+    x: 296.0
+    y: 433.0
+  }
+  scale3 {
+    x: 1.5
+    y: 1.5
+  }
+}
+instances {
+  id: "enemy4"
+  prototype: "/main/enemy.go"
+  position {
+    x: 385.0
+    y: 433.0
+  }
+  scale3 {
+    x: 1.5
+    y: 1.5
+  }
+}
+instances {
+  id: "enemy5"
+  prototype: "/main/enemy.go"
+  position {
+    x: 491.0
+    y: 433.0
+  }
+  scale3 {
+    x: 1.5
+    y: 1.5
+  }
+}
+instances {
+  id: "enemy6"
+  prototype: "/main/enemy.go"
+  position {
+    x: 491.0
+    y: 433.0
+  }
+  scale3 {
+    x: 1.5
+    y: 1.5
   }
 }
 scale_along_z: 0
@@ -35,5 +111,10 @@ embedded_instances {
   position {
     x: 117.0
     y: 67.0
+  }
+  scale3 {
+    x: 1.5
+    y: 1.5
+    z: 2.0
   }
 }
