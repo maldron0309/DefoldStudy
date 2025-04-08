@@ -1,7 +1,15 @@
 name: "main"
+instances {
+  id: "enemy"
+  prototype: "/main/enemy.go"
+  position {
+    x: 118.0
+    y: 172.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
-  id: "go"
+  id: "player"
   data: "components {\n"
   "  id: \"player\"\n"
   "  component: \"/script/player.script\"\n"
@@ -15,6 +23,12 @@ embedded_instances {
   "  sampler: \\\"texture_sampler\\\"\\n"
   "  texture: \\\"/assets/game.atlas\\\"\\n"
   "}\\n"
+  "\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"factory\"\n"
+  "  type: \"factory\"\n"
+  "  data: \"prototype: \\\"/main/bullet.go\\\"\\n"
   "\"\n"
   "}\n"
   ""
